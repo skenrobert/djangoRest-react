@@ -21,7 +21,7 @@ django-admin startproject django_crud_api .
 ## test project before to continue
 python manage.py runserver
 
-## after create app (one project have many app, is like CRUD )
+## after create app (one project have many startapp, is like CRUD )
 python manage.py startapp tasks
 
 ## add tasks in INSTALLED_APPS (djando_crud_api/settings.py) 
