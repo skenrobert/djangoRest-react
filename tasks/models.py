@@ -6,4 +6,4 @@ class Task(models.Model): #model for migration
     done = models.BooleanField(default=False)
 
     def __str__(self): # show values in http://127.0.0.1:8000/admin/tasks
-        return self.title
+        return self.title # before show obj no title
