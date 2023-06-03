@@ -6,9 +6,11 @@ import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
-      <Router />
-      <Toaster />
+      <div className="container mx-auto">
+        <Navigation />
+        <Router />
+        <Toaster />
+      </div>
     </BrowserRouter>
   )
 }
