@@ -1,9 +1,5 @@
-export function TasksPage() {
-  return (
-    <div>
-        TasksPage
-    </div>
-  )
-}
+import { TasksList } from "../components/TasksList";
 
-export default TasksPage
+export function TasksPage() {
+  return <TasksList />;
+}
