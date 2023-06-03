@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 export function TaskCard({ task }) {
   const navigate = useNavigate();
@@ -18,3 +19,18 @@ export function TaskCard({ task }) {
     </div>
   );
 }
+
+
+//https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
+
+// TaskCard.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   description: PropTypes.string,
+//   id: PropTypes.number,
+// //  anyProp: PropTypes.any,
+// //  booleanProp: PropTypes.bool,
+//  // functionProp: PropTypes.func,
+// //  arrayProp: PropTypes.array,
+//  // objectPerop: PropTypes.object,
+// //  symbolProp: PropTypes.symbol,
+// };
